@@ -15,10 +15,10 @@ cd NodeJS-Knex-Postgres
 npm install
 ```
 - Create Your DBs in postgres 
-``
+```
 For Dev - knex_sample
 For Test - knex_sample_test
-``
+```
 - Create .env file in root folder and add below DB URLs 
 ```
 DATABASE_URL='postgres://[db-user]:[password]@localhost:5432/knex_sample'
